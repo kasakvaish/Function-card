@@ -1,0 +1,155 @@
+* {
+    font-family: 'PT Serif', serif;
+    font-size: x-large;
+}
+
+.navbar-brand {
+    margin-left: 60px;
+}
+
+.navbar-collapse {
+    margin-left: 200px;
+}
+
+.nav-item {
+    margin: 30px;
+}
+
+.login {
+    margin-left: 200px;
+}
+
+
+
+@media (max-width:700px) {
+    .login {
+        margin-left: 30px;
+    }
+}
+
+.card {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.card-img {
+    height: 400px;
+    width: auto;
+}
+
+
+
+
+.cards {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 350px;
+    left: 0;
+    width: 90%;
+    height: 50%;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 80px;
+    z-index: 0;
+    backface-visibility: hidden;
+}
+
+
+@media (max-width:700px) {
+
+    .cards {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        top: 350px;
+        left: 0;
+        width: 70%;
+        height: 100%;
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 10px;
+        margin-left: 100px;
+        margin-right: 80px;
+        z-index: 0;
+        backface-visibility: hidden;
+    }
+
+    .card-image {
+        height: 350px;
+        width: 20px;
+    }
+}
+
+.Image{
+    height: 400px;
+    width: 300px;
+}
+
+.carousel{
+    margin: 40px;
+    margin-left: 200px;
+    display: flex;
+    width: 20%;
+    float: left;
+}
+
+.carousel-control-next-icon{
+    margin-right: 10px;
+}
+
+.right-column{
+    display: inline-block;
+    text-align: left;
+    width: 55%;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.right-column > h1{
+    text-align: center;
+}
+
+button{
+    width: 300px;
+    margin-top: 70px;
+}
+
+.cards-s{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 90%;
+    height: 50%;
+    margin-top: auto;
+    margin-left: 100px;
+    margin-right: 80px;
+    padding-top: 200px;
+    margin-bottom: 50px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.flex-container > div{
+    text-align: center;
+}
+
+@media (min-width: 700px){
+
+}
